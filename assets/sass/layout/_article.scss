@@ -1,0 +1,18 @@
+.article {
+    padding: 3rem 0;
+
+    &__date {
+        color: $nickel;
+        padding: 1.5rem 0 ;
+    }
+
+    &__text {
+        color: $nickel;
+        line-height: 2.75rem;
+        padding: 1.5rem 0;
+    }
+
+    &__destacado {
+        color: $ruddy-pink;
+    }
+}

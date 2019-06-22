@@ -1,0 +1,47 @@
+// Color
+
+$white: #fff;
+$platinum: #e6e7e7;
+$light-gray: #d1d1d1;
+
+$fuzzy-wuzzy: #e56353;
+$ruddy-pink: #d76d69;
+$spanish-pink: #ecbcba;
+
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6c6e70;
+
+
+// Tipografia
+
+$roboto: 'Roboto', sans-serif;
+$roboto-regular: 400;
+$roboto-light: 300;
+
+$playfair: 'Playfair Display', serif;
+$playfair-black-italic: 900;
+$playfair-regular: 400;
+
+
+// Tamaño
+
+$font-size-xx-large: 4.375rem;
+$font-size-x-large: 1.875rem;
+$font-size-large: 1.125rem;
+$font-size-medium: 1rem;
+$font-size-small: 0.75rem;
+
+$primary-font: $roboto;
+$primary-font-light: $roboto-light;
+$primary-font-regular: $roboto-regular;
+
+$second-font: $playfair;
+$second-font-black-italic: $playfair-black-italic;
+$second-font-regular: $playfair-regular;
+
+.font-wrapper {
+  font-family: $second-font;
+  font-weight: $second-font-black-italic;
+  font-style: italic;
+}

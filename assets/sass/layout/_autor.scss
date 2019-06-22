@@ -1,0 +1,16 @@
+.autor {
+    border-top: 1px solid $nickel;
+    padding: 4rem 0;
+
+    &__foto {
+        border: 1px solid $light-gray;
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    &__text {
+        font-size: $font-size-small;
+        line-height: 2rem;
+        color: $nickel;
+    }
+}
