@@ -1,0 +1,21 @@
+.paginas {
+    padding: 3rem 0;
+    background-color: $light-gray;
+
+    &__button--anterior {
+        border-radius: 1.5rem 0 0 1.5rem !important;
+    }
+
+    .page-link {
+        color: $eerie-black;
+        }
+
+        .active {
+            color: $white;
+            background-color: $raisin-black;
+        }
+
+    &__button--siguiente {
+        border-radius: 0 1.5rem 1.5rem 0 !important;
+    }
+}

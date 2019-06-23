@@ -9762,6 +9762,12 @@ p {
   line-height: 2rem;
   color: #6c6e70;
 }
+.autor__box--title {
+  padding-top: 5rem;
+}
+.autor__box--text {
+  padding-top: 5rem;
+}
 
 .footer {
   text-align: center;
@@ -9786,6 +9792,24 @@ p {
   color: #e6e7e7;
   background-color: #6c6e70;
   border-radius: 4rem;
+}
+
+.paginas {
+  padding: 3rem 0;
+  background-color: #d1d1d1;
+}
+.paginas__button--anterior {
+  border-radius: 1.5rem 0 0 1.5rem !important;
+}
+.paginas .page-link {
+  color: #121619;
+}
+.paginas .active {
+  color: #fff;
+  background-color: #222323;
+}
+.paginas__button--siguiente {
+  border-radius: 0 1.5rem 1.5rem 0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
