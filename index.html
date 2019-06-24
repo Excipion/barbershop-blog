@@ -13,27 +13,37 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet">
 
     <!--Font Awesome-->
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/988252a4a2.js"></script>
 
     <!--Mi css-->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="navbar__container container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
             <a href="#"><img src="assets/img/logo.png" class="navbar__logo" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#">Nosotros</a>
-                    <a class="nav-item nav-link" href="#">Trabajos</a>
-                    <a class="nav-item nav-link active" href="#">Blog<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Horas</a>
-                    <a class="nav-item nav-link" href="#">Contacto</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Horas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -41,6 +51,10 @@
     <header class="main">
         <div class="main__container container">
             <h1 class="main__titulo">5 formas de cuidar tu corte de cabello</h1>
+
+            <div class="main__icono">
+                <i class="far fa-angle-double-down"></i>
+            </div>
         </div>
     </header>
 
@@ -88,7 +102,7 @@
     <section class="paginas">
         <nav aria-label="Page navigation example" class="paginas__nav">
             <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="paginas__button--anterior page-link" href="#">Anterior</a>
+                <li class="page-item"><a class="paginas__button--anterior page-link disabled" href="#">Anterior</a>
                 </li>
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link active" href="#">2<span class="sr-only">(current)</a></li>

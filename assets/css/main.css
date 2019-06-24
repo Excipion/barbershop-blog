@@ -9708,18 +9708,20 @@ p {
   background-color: #121619;
   padding: 1.5rem 0;
 }
-.navbar .nav-item {
-  color: #e6e7e7;
-}
-.navbar :hover, .navbar .active {
-  color: #d76d69;
-}
 .navbar__logo {
   width: 40%;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item:hover .nav-link {
+  color: #d76d69;
+}
+
 .main {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   background-image: url("../img/post-image.jpg");
   background-repeat: no-repeat;
@@ -9728,8 +9730,12 @@ p {
   margin-bottom: 1rem 0;
 }
 .main__titulo {
-  padding: 0 20%;
-  margin: 25% 0;
+  padding: 0 10%;
+  margin: 20% 0;
+}
+.main__icono {
+  text-align: center;
+  color: #fff;
 }
 
 .article {

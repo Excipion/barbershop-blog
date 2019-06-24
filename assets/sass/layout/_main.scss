@@ -1,5 +1,5 @@
 .main {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-image: url('../img/post-image.jpg');
     background-repeat: no-repeat;
@@ -8,8 +8,13 @@
     margin-bottom: 1rem 0;
 
     &__titulo {
-        padding: 0 20%;
-        margin: 25% 0;
+        padding: 0 10%;
+        margin: 20% 0;
+    }
+
+    &__icono {
+        text-align: center;
+        color: $white;
     }
         
-}   
+}

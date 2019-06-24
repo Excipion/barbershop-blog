@@ -2,16 +2,16 @@
     background-color: $eerie-black;
     padding: 1.5rem 0;
 
-    .nav-item {
-        color: $platinum;
-    }
-
-    :hover, .active {
-        color: $ruddy-pink;
-    }
-
     &__logo {
         width: 40%;
     }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+}
+
+.navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item:hover .nav-link {
+    color: $ruddy-pink;
 }
 
