@@ -45,3 +45,10 @@ $second-font-regular: $playfair-regular;
   font-weight: $second-font-black-italic;
   font-style: italic;
 }
+
+// Tamaños responsive 
+
+$break-small: 320px;
+$break-medium: 768px;
+$break-large: 1024px;
+$break-x-large: 1920px;
