@@ -2,6 +2,10 @@
     border-top: 1px solid $nickel;
     padding: 4rem 0;
 
+    @media (max-width: 628px) {
+        text-align: center;
+    }
+
     &__foto {
         border: 1px solid $light-gray;
         border-radius: 50%;
@@ -15,10 +19,14 @@
     }
 
     &__box--title {
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
 
     &__box--text {
-        padding-top: 5rem;
+        padding-top: 2rem;
+
+        @media (max-width: 628px) {
+            display: none;
+        }
     }
 }

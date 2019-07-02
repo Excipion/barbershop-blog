@@ -10,12 +10,17 @@
     &__titulo {
         padding: 0 10%;
         margin: 20% 0;
+
+        @media (max-width: 628px) {
+        padding: 20% 10% 0 5%;
+        font-size: $font-size-x-large;
+        }
     }
 
     &__icono {
         text-align: center;
         color: $white;
-        font-size:  3.125rem;
+        font-size: 3.125rem;
     }
         
 }

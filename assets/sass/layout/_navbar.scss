@@ -2,6 +2,10 @@
     background-color: $eerie-black;
     padding: 1.5rem 0;
 
+    .container {
+        padding: 0 1.25rem;
+    }
+
     &__logo {
         width: 40%;
     }
@@ -14,4 +18,5 @@
 .navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item:hover .nav-link {
     color: $ruddy-pink;
 }
+
 
