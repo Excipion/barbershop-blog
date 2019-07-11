@@ -9811,6 +9811,15 @@ p {
   background-color: #6c6e70;
   border-radius: 4rem;
 }
+.article__small-button:hover {
+  background-color: #121619;
+}
+@media (max-width: 628px) {
+  .article__small-button {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+}
 
 .article__medium-button {
   padding: 0.8rem 2rem;
@@ -9818,6 +9827,12 @@ p {
   color: #e6e7e7;
   background-color: #6c6e70;
   border-radius: 4rem;
+}
+@media (max-width: 628px) {
+  .article__medium-button {
+    margin: 0;
+    font-size: 0.75rem;
+  }
 }
 
 .paginas {

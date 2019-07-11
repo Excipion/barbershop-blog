@@ -4,6 +4,15 @@
     color: $platinum;
     background-color: $nickel;
     border-radius: 4rem;
+
+    &:hover {
+        background-color: $eerie-black;
+    }
+
+    @media (max-width: 628px) {
+        margin: 0;
+        font-size: $font-size-small;
+    }
 }
 
 .article__medium-button {
@@ -12,4 +21,9 @@
     color: $platinum;
     background-color: $nickel;
     border-radius: 4rem;
+
+    @media (max-width: 628px) {
+        margin: 0;
+        font-size: $font-size-small;
+    }
 }
